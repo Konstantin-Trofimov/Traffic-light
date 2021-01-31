@@ -46,11 +46,6 @@
 		}
 	}
 
-	.timer span{
-		font-size: 30px;
-		font-weight: bold;
-	}
-
 	.blink {
 		animation-name: blinker;
 		animation-iteration-count: infinite;

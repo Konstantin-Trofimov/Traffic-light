@@ -16,7 +16,7 @@ export default new Vuex.Store({
 		TOGGLE_TRAFFIC_LIGFT({
 			commit
 		}) {
-			commit('TOGGLE', )
+			commit('TOGGLE')
 		},
 	},
 	getters: {

@@ -3,7 +3,7 @@
 		<div class="lamp lamp_red lamp_dim"></div>
 		<div class="lamp lamp_yellow active"></div>
 		<div class="lamp lamp_green lamp_dim"></div>
-
+		
 		<vTimer :seconds="time"/>
 	</div>
 </template>
@@ -32,9 +32,6 @@
 				this.updateTimer(color)
 				this.TOGGLE_TRAFFIC_LIGFT()
 			}
-		},
-		mounted () {
-			this.changeLight()	
 		}
 	}
 </script>

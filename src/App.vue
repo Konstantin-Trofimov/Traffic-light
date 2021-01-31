@@ -18,12 +18,12 @@
 
 	#app {
 		font-family: Avenir, Helvetica, Arial, sans-serif;
-		padding-top: 5rem;
+		padding-top: 3rem;
 	}
 
 	.lamp {
-		width: 10rem;
-		height: 10rem;
+		width: 12rem;
+		height: 12rem;
 		margin: 0 auto;
 		border: 2px solid #aeaeae;
 		border-radius: 50%;

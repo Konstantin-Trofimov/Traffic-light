@@ -6,6 +6,7 @@
     "start": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
+  "author": "Konstantin Trofimov <const.trofimov@gmai.com>",
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11",

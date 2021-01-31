@@ -28,5 +28,8 @@ export default {
 		...mapGetters([
 			'TRAFFIC',
 		])
+	},
+	mounted() {
+		this.changeLight()
 	}
 }

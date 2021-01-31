@@ -1,20 +1,13 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
-// import Home from '@/App.vue'
 import Green from '../components/lamp/v-lamp-green.vue'
 import Red from '../components/lamp/v-lamp-red.vue'
 import Yellow from '../components/lamp/v-lamp-yellow.vue'
 
 Vue.use(VueRouter)
 
-const routes = [
-  // {
-  //   path: '/',
-  //   name: 'home',
-  //   component: Home
-  // },
-  {
+const routes = [{
     path: '/green',
     name: 'green',
     component: Green

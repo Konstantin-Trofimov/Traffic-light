@@ -1,19 +1,18 @@
 <template>
 	<div class="v-timer">
-        <span>{{ TIMER }}</span>
+        <span>{{ seconds }}</span>
 	</div>
 </template>
 
 <script>
-	import {mapGetters} from 'vuex'
-
 	export default {
 		name: 'v-timer',
-		computed: {
-			...mapGetters([
-				'TIMER',
-			]),	
-		}	
+		props: {
+			seconds: {
+				type: Number,
+				defualt: 3
+			}
+		}
 	}
 </script>
 
